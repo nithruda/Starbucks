@@ -1,0 +1,205 @@
+body{
+    background-color: rgb(231, 230, 229);
+        margin: 0;
+        padding: 0;
+    
+    
+}
+#row1{
+    height: 40px;
+    margin-top: 40px;
+  
+}
+#logo{
+    height: 75px;
+    width: 225px;
+    margin-left: 100px;
+   
+}
+#header{
+   justify-content: center;
+   text-align: center;
+}
+#home,#trending,#contact,#aboutus,#signup{
+   color: rgb(85, 67, 67);
+   text-decoration: none;
+   font-size: 25px;
+    font-style:normal;
+    font-weight: 500;
+    margin-left: 20px;
+   
+}
+#ice-description  {
+    padding-top:70px;
+    padding-left: 120px;
+   
+}
+#ice-description p  {
+    font-style: oblique;
+}
+#homecoffee1,#homecoffee2{
+    height: 500px;
+    transition: transform 0.2s;
+}
+#homecoffee1container{
+    padding-left: 90px;
+}
+#ice-description2{
+    padding-left: 30px;
+
+}
+#ice-description3{
+    margin-top: 80px;
+}
+#ice-description3 p{
+    font-style: oblique;
+    
+}
+#ibutton1,#ibutton2{
+   background-color: #00704A;
+   color: #ffffff;
+   padding: 10px;
+   border-radius: 3px;
+   box-shadow: 8px 6px 7px #333 ;
+   border: none;
+}
+#ibutton1:hover,#ibutton2:hover{
+    background-color: #052c1e;
+}
+#img-container {
+    background-color:#03412a;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+    margin-top: 80px;
+    position: relative;
+    overflow: visible;
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+   /* Center vertically */
+
+
+}
+
+#coffee1, #coffee2, #coffee3 {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    transform: translateY(-30%); /* Optional if you want to keep the half-outside effect */
+    z-index: 1; /* Ensure images are above the background */
+    border-radius: 50%;
+    
+}
+
+
+#container1 , #container2, #container3{
+   border-radius: 30px;
+  padding-bottom: 10px ;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  transition: transform 0.3s ease; 
+  background-color:#03412a;
+  padding-bottom: 90px;
+}
+
+#container1 button, #container2 button, #container3 button{
+    background-color: #ccc;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 8px 6px 7px #333 ;
+}
+#container1 button:hover, #container2 button:hover, #container3 button:hover{
+    background-color: #979797;
+}
+#aboutimg{
+    height: 400px;
+    width: 400px;
+}
+#info{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+
+   
+}
+#info p , h1{
+text-align: center;
+}
+#info img{
+    border-radius: 30px;
+    height: 400px;
+    width: 600px;
+}
+#info3,#info2{
+    margin-top: 30px;
+}
+
+
+
+
+#form {
+    background-color: #f9f9f9; /* Light background color for the form */
+    padding: 20px; /* Adds padding around the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Label styles */
+ label {
+    display: block; /* Makes label block level for full width */
+    margin-bottom: 8px; /* Adds space below each label */
+    font-weight: bold; /* Makes the label text bold */
+    color: #333; /* Dark color for labels */
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%; /* Full width for inputs and textarea */
+    padding: 10px; /* Adds padding inside the input fields */
+    margin-bottom: 15px; /* Space below each input/textarea */
+    border: 1px solid #ccc; /* Border for inputs and textarea */
+    border-radius: 4px; /* Rounded corners for inputs and textarea */
+    font-size: 16px; /* Font size for inputs and textarea */
+    box-sizing: border-box; /* Ensures padding is included in width */
+    font-family: Arial, sans-serif; /* Font for input text */
+}
+
+form textarea {
+    height: 100px; /* Sets a fixed height for the textarea */
+    resize: vertical; /* Allows vertical resizing only */
+}
+
+/* Button styles */
+form button[type="submit"] {
+    background-color: #00704A; /* Button background color */
+    color: white; /* Text color for button */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Removes default button border */
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 16px; /* Font size for the button */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    display: inline-block; /* Aligns the button with form elements */
+}
+
+/* Button hover effect */
+form button[type="submit"]:hover {
+    background-color: #03412a; /* Darker green on hover */
+}
+
+#copy-container{
+    padding: 0px;
+    margin-top: 0px;
+    background-color: #00704A;
+    text-align: center;
+    
+}
+#copy{
+    margin-top: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+   
+}
